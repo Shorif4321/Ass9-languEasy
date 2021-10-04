@@ -32,7 +32,7 @@ const Home = () => {
                     <h2 className="fs-1">Our services</h2>
                     {
                         services.map(service =>
-                            <div className="col-md-3 mt-5 mb-5">
+                            <div key={service.key} className="col-md-3 mt-5 mb-5">
                                 <div className="cart container">
                                     <div className="logo-image">
                                         <img className="w-100 img-fluid" src={service.img} alt="" />
@@ -40,8 +40,8 @@ const Home = () => {
                                     <h4 className="mt-4 mb-3 w-75 m-auto service-heading"> {service.coureName}</h4>
                                     <h5 >Price: {service.courseFree}</h5>
                                     <p className="service-details">{service.details}</p>
-                                    key={service.key}
-                                    {/*  <button className="btn-primary rounded mt-3">Show Details</button> */}
+
+                                    <button className="btn-info button-regular rounded mt-3">Enroll Now</button>
                                 </div>
                             </div>)
                     }

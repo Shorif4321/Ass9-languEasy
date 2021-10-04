@@ -26,9 +26,9 @@ const Footer = () => {
                 <div className="col-md-4 mt-5 mb-5">
                     <h5>Social Link</h5>
                     <div className="text-info">
-                        <i class="fs-2  m-2 fab fa-facebook"></i>
-                        <i class="fs-2 m-2 fab fa-youtube ms-3"></i>
-                        <i class="fs-2  m-2 fab fa-twitter ms-3"></i>
+                        <i className="fs-2  m-2 fab fa-facebook"></i>
+                        <i className="fs-2 m-2 fab fa-youtube ms-3"></i>
+                        <i className="fs-2  m-2 fab fa-twitter ms-3"></i>
                     </div>
                 </div>
             </div>
