@@ -2,11 +2,12 @@ import React from 'react';
 
 const Contact = () => {
     return (
+        /* form  */
         <div className="my-5 mx-5">
             <h1>Contact us</h1>
             <div className="w-50 m-auto">
                 <div className="text-start mb-3">
-                    <label for="exampleFormControlTextarea1" className="form-label ">Your Name </label>
+                    <label for="exampleFormControlTextarea1" className="form-label ">Your Name</label>
                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                 </div>
 
